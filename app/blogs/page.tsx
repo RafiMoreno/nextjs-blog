@@ -13,6 +13,7 @@ export default async function Blogs() {
         <BlogItems data={data[index]} />
         </Link>
       ))}
+      <Link href={'/create'} className="absolute bottom-3 right-3 bg-black text-white font-bold text-md px-3 py-2 rounded-lg">Create Blog</Link>
     </div>
   );
 }
